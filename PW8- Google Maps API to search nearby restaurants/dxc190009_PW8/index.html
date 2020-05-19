@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geocoding Service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="floating-panel">
+      <input id="address" type="textbox" value="UT Dallas" />
+      <input id="submit" type="button" value="Search" />
+    </div>
+    <div id="map"></div>
+  </body>
+  <script src="app.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcWhzcS0fRqtT4czOHzFBfbw4PqiIhnk4&libraries=places&callback=initMap"
+    async
+    defer
+  ></script>
+</html>

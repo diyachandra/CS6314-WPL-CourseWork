@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+  
+  .row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.left,.right {
+  flex: 15%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.box {
+  float: center;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(207,232,220);
+  padding:1px 1px;
+  text-align:center;
+}
+img{
+	float:left;
+	margin:5px;
+
+}
+
+.footer {
+  padding: 1px; 
+  text-align: center; 
+  background: #333; 
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="#">Logo</a>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Projects</a>
+  <a href="#">Contact</a>
+  <div class="topnav-right">
+  <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+</div>
+</div>
+
+<div class="row">
+  <div class="left" style="background-color:#aaa;">
+  <a href="#london">London</a>
+  <br>
+  <a href="#paris">Paris</a>
+  <br>
+  <a href="#tokyo">Tokyo</a>
+  <br>
+  </div>
+  <div class="main" style="background-color:white;">
+  <h2>Welcome</h2>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>Test</h2>
+    <p>Lorem ipsum ...</p>
+    <a id="london">
+    <h2>London</h2>
+    <img src="london.jpg">
+    <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+Standing on the River Thames, London has been a major settlement for two millennia, its history going back to it's founding by the Romans, who named it Londinium.
+</p>
+<br>
+<br>
+<br>
+<br>
+</a>
+
+ <a id="paris">
+    <h2>Paris</h2>
+    <img src="paris.jpg">
+    <p>Paris is the capital and the most populous city of France. It has an area of 105 km square (41 mi²) and a population in 2013 of 2,229,621 within the city limits. Paris was founded in the 3rd century BC by a Celtic people called the Parisii, who gave the city its name. By the 12th century, Paris was the largest city in the western world, a prosperous trading center, and the home of the University of Paris, one of the oldest universities in history. At 17th century is the capital of Europe's major power. In the 18th century, it was the center stage of the French Revolution, and was an important center of finance, commerce, fashion, science, and the arts, a position it still retains today
+</p>
+<br>
+</a>
+<a id="tokyo">
+    <h2>Tokyo</h2>
+    <img src="tokyo.jpg">
+    <p>Tokyo, officially Tokyo is one of the 47 prefectures of Japan, and is both the capital and most populous city of Japan. The Greater Tokyo Area is the most populous metropolitan area in the world.
+</p>
+<br>
+</a>
+    
+  </div>
+  <div class="right" style="background-color:#ccc;">
+  <div class="box"> ADS </div><br>
+  <div class="box"> ADS </div><br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer Text</h2>
+</div>
+
+</body>
+</html>
+
+
+
